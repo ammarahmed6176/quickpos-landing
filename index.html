@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="QuickPOS - The Last POS System You’ll Ever Need. Modern, fast, and reliable Point of Sale software.">
+    <title>QuickPOS | Modern Point of Sale System</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Epic 1: Navigation & Header -->
+    <header class="header">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <span class="logo-icon">Q</span>
+                QuickPOS
+            </a>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="#features" class="nav-link">Features</a></li>
+                    <li><a href="#pricing" class="nav-link">Pricing</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-actions">
+                <a href="#signup" class="btn btn-primary">Sign Up</a>
+                <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Epic 2: Hero Section -->
+        <section class="hero">
+            <div class="container hero-container">
+                <div class="hero-content reveal">
+                    <h1 class="hero-title">The Last POS System You’ll Ever Need</h1>
+                    <p class="hero-subtitle">Streamline your business operations with a blazing fast, intuitive, and modern point-of-sale solution designed for the future of retail.</p>
+                    <div class="hero-buttons">
+                        <a href="#signup" class="btn btn-primary btn-large">Get Started for Free</a>
+                        <a href="#features" class="btn btn-secondary btn-large">Explore Features</a>
+                    </div>
+                </div>
+                <div class="hero-image-wrapper reveal delay-1">
+                    <div class="glass-orb orb-1"></div>
+                    <div class="glass-orb orb-2"></div>
+                    <img src="assets/images/pos-mockup.png" alt="QuickPOS Modern Interface Mockup on Tablet" class="hero-image">
+                </div>
+            </div>
+        </section>
+
+        <!-- Epic 3: Features Section -->
+        <section id="features" class="features section">
+            <div class="container">
+                <div class="section-header reveal">
+                    <h2>Powerful Features</h2>
+                    <p>Everything you need to run your store efficiently, all in one place.</p>
+                </div>
+                <div class="features-grid">
+                    <div class="feature-card glass-card reveal">
+                        <div class="feature-icon">📦</div>
+                        <h3>Inventory Management</h3>
+                        <p>Track stock levels in real-time. Receive automated low-stock alerts and manage multiple warehouse locations seamlessly.</p>
+                    </div>
+                    <div class="feature-card glass-card reveal delay-1">
+                        <div class="feature-icon">📈</div>
+                        <h3>Sales Analytics</h3>
+                        <p>Visualize your performance with dynamic charts. Understand customer trends and make data-driven decisions.</p>
+                    </div>
+                    <div class="feature-card glass-card reveal delay-2">
+                        <div class="feature-icon">🔌</div>
+                        <h3>Easy Integration</h3>
+                        <p>Connect with your favorite accounting tools, e-commerce platforms, and payment gateways with a single click.</p>
+                    </div>
+                    <div class="feature-card glass-card reveal delay-3">
+                        <div class="feature-icon">☁️</div>
+                        <h3>Cloud Sync</h3>
+                        <p>Access your store data from anywhere. Secure cloud backups mean you'll never lose a single transaction.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Epic 4: Pricing Section -->
+        <section id="pricing" class="pricing section">
+            <div class="container">
+                <div class="section-header reveal">
+                    <h2>Simple, Transparent Pricing</h2>
+                    <p>Choose the plan that fits your business size.</p>
+                </div>
+                <div class="pricing-grid">
+                    <div class="pricing-card glass-card reveal">
+                        <h3 class="tier-name">Basic</h3>
+                        <div class="tier-price"><span>$</span>0<span>/mo</span></div>
+                        <ul class="tier-features">
+                            <li>1 Store Location</li>
+                            <li>Up to 1,000 Items</li>
+                            <li>Standard Support</li>
+                            <li>Basic Reporting</li>
+                        </ul>
+                        <a href="#signup" class="btn btn-secondary btn-block">Start Free</a>
+                    </div>
+                    
+                    <div class="pricing-card glass-card pro-tier reveal delay-1">
+                        <div class="tier-badge">Most Popular</div>
+                        <h3 class="tier-name">Pro</h3>
+                        <div class="tier-price"><span>$</span>49<span>/mo</span></div>
+                        <ul class="tier-features">
+                            <li>Up to 5 Store Locations</li>
+                            <li>Unlimited Items</li>
+                            <li>Priority 24/7 Support</li>
+                            <li>Advanced Analytics</li>
+                            <li>E-commerce Integration</li>
+                        </ul>
+                        <a href="#signup" class="btn btn-primary btn-block">Get Pro</a>
+                    </div>
+
+                    <div class="pricing-card glass-card reveal delay-2">
+                        <h3 class="tier-name">Enterprise</h3>
+                        <div class="tier-price"><span>$</span>199<span>/mo</span></div>
+                        <ul class="tier-features">
+                            <li>Unlimited Locations</li>
+                            <li>Unlimited Items</li>
+                            <li>Dedicated Account Manager</li>
+                            <li>Custom API Access</li>
+                            <li>Custom Integrations</li>
+                        </ul>
+                        <a href="#contact" class="btn btn-secondary btn-block">Contact Sales</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Epic 5: Contact Us Form -->
+        <section id="contact" class="contact section">
+            <div class="container">
+                <div class="contact-container glass-card reveal">
+                    <div class="contact-info">
+                        <h2>Get in Touch</h2>
+                        <p>Have questions? Our team is ready to help you discover how QuickPOS can transform your business.</p>
+                        <div class="contact-details">
+                            <p>📧 support@quickpos.example.com</p>
+                            <p>📞 +1 (555) 123-4567</p>
+                        </div>
+                    </div>
+                    <div class="contact-form-wrapper">
+                        <!-- Contact form visual representation (action points to success page for static demo) -->
+                        <form action="thank-you.html" method="GET" class="contact-form">
+                            <div class="form-group">
+                                <label for="name">Full Name</label>
+                                <input type="text" id="name" name="name" required placeholder="John Doe">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email Address</label>
+                                <input type="email" id="email" name="email" required placeholder="john@example.com">
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" rows="4" required placeholder="How can we help you?"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-block">Send Message (Static Demo)</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Epic 6: Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <a href="#" class="logo">
+                    <span class="logo-icon">Q</span>
+                    QuickPOS
+                </a>
+                <p>The modern POS built for ambitious retailers.</p>
+            </div>
+            <div class="footer-social">
+                <a href="#" aria-label="Twitter">Twitter</a>
+                <a href="#" aria-label="LinkedIn">LinkedIn</a>
+                <a href="#" aria-label="Facebook">Facebook</a>
+            </div>
+            <div class="footer-copyright">
+                <p>&copy; 2026 QuickPOS. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
