@@ -4,20 +4,18 @@
 // Check if request is POST
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     
+    // Include validation functions
+    require_once 'includes/validation.php';
+    
     // Sanitize and get inputs
     $name = trim(filter_input(INPUT_POST, 'name', FILTER_SANITIZE_STRING));
     $email = trim(filter_input(INPUT_POST, 'email', FILTER_SANITIZE_EMAIL));
     $message = trim(filter_input(INPUT_POST, 'message', FILTER_SANITIZE_STRING));
     
     // Basic validation
-    if (empty($name) || empty($email) || empty($message)) {
+    if (!validateName($name) || !validateEmail($email) || !validateMessage($message)) {
         // Redirect back with error
-        header("Location: index.php?error=" . urlencode("All fields are required. Please fill in the form completely.") . "#contact");
-        exit;
-    }
-    
-    if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-        header("Location: index.php?error=" . urlencode("Please provide a valid email address.") . "#contact");
+        header("Location: index.php?error=" . urlencode("All fields are required and must be valid. Please check your inputs.") . "#contact");
         exit;
     }
 
