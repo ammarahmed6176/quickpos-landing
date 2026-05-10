@@ -1,0 +1,13 @@
+{
+    "name": "ammarahmed/quickpos",
+    "description": "QuickPOS Landing Page with testing and CI/CD",
+    "type": "project",
+    "require-dev": {
+        "phpunit/phpunit": "^9.6"
+    },
+    "autoload": {
+        "files": [
+            "includes/validation.php"
+        ]
+    }
+}
