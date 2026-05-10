@@ -51,4 +51,4 @@ jobs:
 
       - name: Validate Commit Message
         run: |
-          git log --format=%B -n 1 | grep -E '\[POS-[0-9]+\]'
+          git log --format=%B -n 1 | grep -E '\[?(POS|SCRUM)-[0-9]+\]?'

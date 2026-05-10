@@ -1,66 +1,41 @@
-# QuickPOS Landing Page
+# QuickPOS - The Last POS System You'll Ever Need
 
-![QuickPOS CI](https://github.com/ammarahmed/quickpos/actions/workflows/ci.yml/badge.svg)
+![CI Status](https://github.com/ammarahmed6176/quickpos-landing/actions/workflows/ci.yml/badge.svg)
 
-QuickPOS is a modern, responsive landing page for a Point of Sale software solution. This project includes a sleek UI, contact form validation, and automated testing via GitHub Actions.
+## Project Overview
+QuickPOS is a modern, fast, and reliable Point of Sale landing page designed for the future of retail. It features a responsive UI built with glassmorphism aesthetics, a multi-tier pricing section, and a fully functional PHP-validated contact form.
 
-## 🚀 Features
+## Technologies Used
+* **Frontend:** HTML5, CSS3 (Custom Variables, Flexbox, CSS Grid)
+* **Backend:** PHP 8.x
+* **Testing:** PHPUnit (Automated Unit Testing)
+* **CI/CD:** GitHub Actions
+* **Project Management:** Jira & Slack
 
-* **Premium UI**: Modern dark mode aesthetic with gradient backgrounds, glassmorphism cards, and smooth hover animations.
-* **Responsive Design**: Fully optimized for mobile, tablet, and desktop viewing.
-* **Form Validation**: Robust PHP validation logic separated into reusable functions.
-* **Automated Testing**: Comprehensive PHPUnit test suite ensuring validation functions work correctly.
-* **CI/CD Pipeline**: GitHub Actions workflow that automatically runs syntax checks and PHPUnit tests on every push and pull request.
-
-## 🛠️ Technologies Used
-
-* **Frontend**: HTML5, CSS3, Vanilla JavaScript
-* **Backend**: PHP 8.2
-* **Testing**: PHPUnit 11
-* **CI/CD**: GitHub Actions
-
-## 📦 Setup Instructions
-
-Follow these steps to set up the project on your local machine:
-
-1. **Clone the repository:**
+## Installation Steps
+1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/quickpos.git
-   cd quickpos
+   git clone https://github.com/ammarahmed6176/quickpos-landing.git
    ```
-
-2. **Install Dependencies:**
-   Ensure you have [Composer](https://getcomposer.org/) installed. Run the following command to install PHPUnit and other required dependencies:
+2. Navigate into the project folder:
+   ```bash
+   cd quickpos-landing
+   ```
+3. Install PHP dependencies using Composer:
    ```bash
    composer install
    ```
-
-3. **Run the Application:**
-   You can use PHP's built-in server to run the application locally:
+4. Start the local PHP development server:
    ```bash
    php -S localhost:8000
    ```
-   Open your browser and navigate to `http://localhost:8000`.
+5. Open your web browser and go to `http://localhost:8000`
 
-## 🧪 Running Tests
-
-To execute the automated PHPUnit test suite, run:
+## Running Tests
+To verify the validation logic, run the PHPUnit test suite:
 ```bash
 vendor/bin/phpunit tests
 ```
 
-## 📸 Screenshots
-
-### 1. Landing Page UI
-*(Add your landing page screenshot here)*
-
-### 2. GitHub Actions CI/CD Pipeline
-*(Add screenshot of successful pipeline here)*
-
-*(Add screenshot of failed pipeline here)*
-
-### 3. Jira Sprint Board
-*(Add screenshot of your Jira sprint board here)*
-
-## 📄 License
-This project is for educational purposes.
+## Team Roles
+* **Ammar Ahmed:** Lead Developer & DevOps Engineer (UI Implementation, Backend Validation, CI/CD Pipeline Setup)
