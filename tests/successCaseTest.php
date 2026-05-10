@@ -16,6 +16,5 @@ class SuccessCaseTest extends TestCase
         $isMessageValid = validateMessage($message);
 
         $this->assertTrue($isNameValid && $isEmailValid && $isMessageValid, "The form should be completely valid");
-        $this->assertTrue(false); // INTENTIONAL FAILURE FOR CI PIPELINE SCREENSHOT
     }
 }
