@@ -3,14 +3,14 @@
 ![CI Status](https://github.com/ammarahmed6176/quickpos-landing/actions/workflows/ci.yml/badge.svg)
 
 ## Project Overview
-QuickPOS is a modern, fast, and reliable Point of Sale landing page designed for the future of retail. It features a responsive UI built with glassmorphism aesthetics, a multi-tier pricing section, and a fully functional PHP-validated contact form.
+QuickPOS is a modern, fast, and reliable Poi.
 
 ## Technologies Used
 * **Frontend:** HTML5, CSS3 (Custom Variables, Flexbox, CSS Grid)
 * **Backend:** PHP 8.x
 * **Testing:** PHPUnit (Automated Unit Testing)
 * **CI/CD:** GitHub Actions
-* **Project Management:** Jira & Slack
+* **Project Management:** Jira
 
 ## Installation Steps
 1. Clone this repository:
