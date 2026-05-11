@@ -10,7 +10,7 @@ QuickPOS is a modern, fast, and reliable Point of Sale landing page designed for
 * **Backend:** PHP 8.x
 * **Testing:** PHPUnit (Automated Unit Testing)
 * **CI/CD:** GitHub Actions
-* **Project Management:** Jira & Slack
+* **Project Management:** Jira
 
 ## Installation Steps
 1. Clone this repository:
